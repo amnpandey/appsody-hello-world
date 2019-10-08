@@ -7,3 +7,4 @@ spec:
   applicationImage: docker-registry.default.svc:5000/kabanero/appsody-hello-world
   stack: java-microprofile
   createKnativeService: true
+  expose: true
